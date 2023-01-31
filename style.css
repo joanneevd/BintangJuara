@@ -24,3 +24,7 @@ p {
   background-color: #ddd;
   margin-right: 2px;
 }
+
+.env .row {
+  align-self: center;
+}
