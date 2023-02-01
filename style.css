@@ -3,6 +3,8 @@ p {
   font-weight: normal;
   font-size: medium;
   margin-right: 40px;
+  text-align: justify;
+  line-height: 2;
 }
 
 .galeri {
@@ -16,8 +18,16 @@ p {
   width: 0;
 }
 
+h1 {
+  text-align: center;
+  align-self: center;
+  font-family: fantasy;
+}
+
 h2 {
   font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
 }
 
 .galeri .item {
@@ -31,4 +41,11 @@ h2 {
 
 .env .row {
   align-self: center;
+}
+
+/* card fasilitas */
+button-fiture {
+  width: 238px;
+  height: 63px;
+  background-color: var;
 }
