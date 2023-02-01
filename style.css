@@ -1,0 +1,30 @@
+p {
+  font-family: "poppins";
+  font-weight: 35px;
+  font-size: small;
+  margin-right: 40px;
+}
+
+.galeri {
+  max-height: 120px;
+  border: 1px solid #ddd;
+  display: flex;
+  overflow-x: auto;
+}
+
+.galeri::-webkit-scrollbar {
+  width: 0;
+}
+
+.galeri .item {
+  min-width: 110px;
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
+  background-color: #ddd;
+  margin-right: 2px;
+}
+
+.env .row {
+  align-self: center;
+}
