@@ -55,3 +55,22 @@ button-fiture {
   background-color: rgba(0, 0, 0, 0.6);
   opacity: 1;
 }
+
+.fitur::-webkit-scrollbar {
+  width: 0;
+}
+
+.fitur {
+  display: flex;
+  overflow-x: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+
