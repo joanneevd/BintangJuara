@@ -1,7 +1,7 @@
 p {
   font-family: Helvetica;
   font-weight: normal;
-  font-size: medium;
+  font-size: large;
   margin-right: 40px;
   text-align: justify;
   line-height: 2;
@@ -10,15 +10,24 @@ p {
 h1 {
   text-align: center;
   align-self: center;
-  font-family: fantasy;
+  font-family: "Franklin Gothic Medium";
+  font-weight: bolder;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 h2 {
-  font-family: sans-serif;
-
+  font-family: "Franklin Gothic Medium";
   font-weight: bold;
   font-size: 48px;
   font-weight: 500;
+}
+
+h3 {
+  font-family: "Franklin Gothic Medium";
+  font-weight: bold;
+  font-size: 38px;
+  font-weight: 300;
 }
 
 /* * {
@@ -118,4 +127,39 @@ h2 {
 
 .icon:hover {
   color: yellow;
+}
+
+.elementor-widget-video .container {
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.elementor-widget-video .elementor-custom-embed-image-overlay {
+  cursor: pointer;
+  text-align: center;
+}
+
+.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i {
+  opacity: 1;
+}
+
+.elementor-widget-video .elementor-custom-embed-image-overlay img {
+  display: block;
+  width: 100%;
+}
+
+.elementor-widget-video .e-hosted-video .elementor-video {
+  -o-object-fit: cover;
+  object-fit: cover;
 }
