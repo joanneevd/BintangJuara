@@ -116,8 +116,8 @@ h3 {
 }
 
 .icon {
-  color: rgb(67, 247, 76);
-  background-color: black;
+  color: #45b0f8;
+  /* background-color: black; */
   font-size: 50px;
   outline: none;
   border: none;
@@ -126,7 +126,7 @@ h3 {
 }
 
 .icon:hover {
-  color: yellow;
+  color: #ffff;
 }
 
 .elementor-widget-video .container {
