@@ -2,14 +2,14 @@ p {
   font-family: Helvetica;
   font-weight: normal;
   font-size: large;
-  margin-right: 40px;
-  text-align: justify;
+  /* margin-right: 40px;
+  text-align: justify; */
   line-height: 2;
 }
 
 h1 {
-  text-align: center;
-  align-self: center;
+  /* text-align: center;
+  align-self: center; */
   font-family: "Franklin Gothic Medium";
   font-weight: bolder;
   font-size: 40px;
