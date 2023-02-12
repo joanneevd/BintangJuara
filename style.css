@@ -47,30 +47,26 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* height: 100vh; */
+  height: 100vh;
   width: 100%;
-  padding: 0px;
-  margin: 0px;
-  /* box-sizing: border-box; */
-  /* background-color: black; */
 }
 
 .main-scroll-div {
-  width: 100%;
-  /* height: 100%; */
+  width: 90%;
+  height: 100%;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
-  border: 2px solid red;
+  justify-content: space-between;
+  /* border: 2px solid red; */
 }
 
 .cover {
-  position: relative;
-  width: 90%;
-  height: 50%;
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
 }
 
-/* .cover::before {
+.cover::before {
   position: absolute;
   content: "";
   left: 0;
@@ -90,25 +86,25 @@ h3 {
   height: 100%;
   width: 150px;
   background-image: linear-gradient(-90deg, black, transparent);
-} */
+}
 
 .scroll-images {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: auto;
   display: flex;
-  justify-content: start;
+  justify-content: left;
   align-items: center;
   overflow: auto;
-  /* position: relative; */
+  position: relative;
   scroll-behavior: smooth;
 }
 
 .child {
-  min-width: 100%;
-  height: 100%;
-  /* margin: 10px 10px; */
+  min-width: 200px;
+  height: 250px;
+  margin: 1px 10px;
   cursor: pointer;
-  /* border: 1px solid rgba(207, 201, 201, 0.3); */
+  border: 1px solid rgba(207, 201, 201, 0.3);
   overflow: hidden;
 }
 
@@ -119,12 +115,11 @@ h3 {
 .child-img {
   width: 100%;
   height: 100%;
-  align-items: center;
 }
 
 .icon {
-  color: #45b0f8;
-  /* background-color: black; */
+  color: rgb(67, 247, 76);
+  background-color: black;
   font-size: 50px;
   outline: none;
   border: none;
@@ -133,45 +128,7 @@ h3 {
 }
 
 .icon:hover {
-  color: #fced19;
-}
-
-/* AKHIR GALERI */
-
-/* VIDEO YT */
-.elementor-widget-video .container {
-  overflow: hidden;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-}
-
-.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: 50%;
-}
-
-.elementor-widget-video .elementor-custom-embed-image-overlay {
-  cursor: pointer;
-  text-align: center;
-}
-
-.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i {
-  opacity: 1;
-}
-
-.elementor-widget-video .elementor-custom-embed-image-overlay img {
-  display: block;
-  width: 100%;
-}
-
-.elementor-widget-video .e-hosted-video .elementor-video {
-  -o-object-fit: cover;
-  object-fit: cover;
+  color: yellow;
 }
 
 /* AKHIR VIDEO YT */
