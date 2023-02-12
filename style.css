@@ -301,3 +301,9 @@ label {
   }
 }
 /* akhir halaman gallery */
+
+.gambar {
+  border-radius: 20px 20px 20px 20px;
+  width: 80%;
+  height: 100%;
+}
