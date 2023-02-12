@@ -175,3 +175,39 @@ h3 {
 }
 
 /* AKHIR VIDEO YT */
+
+/* selayang */
+/* .row p {
+  line-height: 1.4;
+  text-align: justify;
+  margin-bottom: 5px;
+} */
+
+#check {
+  display: none;
+}
+
+.content {
+  display: none;
+  transition: 0.5s linear;
+}
+label {
+  display: inline-block;
+  color: #45b0f8;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#check:checked ~ .content {
+  display: block;
+}
+
+#check:checked ~ label {
+  visibility: hidden;
+}
+
+#check:checked ~ label:after {
+  content: "Show Less";
+  display: block;
+  visibility: visible;
+}
